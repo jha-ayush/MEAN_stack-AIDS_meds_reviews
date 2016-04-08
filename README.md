@@ -9,7 +9,10 @@
 - Hidden reviews show up.
 
 
-
+### Pre-work tasks:
+- Create project01 github Repository
+- Create corresponding Heroku page: https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md
+- npm install
 
 
 
@@ -21,3 +24,18 @@ https://github.com/jha-ayush/Project01_GlobalAPI
 
 #### External API used:  
 GET http://aidsinfo.nih.gov/api/drugs
+
+#### Front-end files:
+- /views/index.HTML
+- /styles/styles.css
+- /scripts/app.js
+- /controllers/apiController.js
+- /controllers/index.js
+- /controllers/medicationsController.js
+
+#### Back-end files:
+- /server.js
+- /seed.js
+-
+
+#### Database files:
