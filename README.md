@@ -10,3 +10,6 @@
 ### Goal:
 - Create a single page responsive web app that lets users Read & Submit reviews of AIDS medication that are currently available.
 - User enters web app.
+- User is able to see the list of medications.
+- User can click on a single medication & modal pops up.
+- Hidden reviews show up.
