@@ -1,0 +1,66 @@
+.jumbotron {
+    background-image: url('/images/AIDS_redRibbon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #EEE;
+    background-color: white;
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.jumbotron .container {
+    height: 350px;
+}
+.inline-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 12px;
+}
+h2 {
+    margin-top: 400px;
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: lucida;
+    font-weight: bold;
+    color: black;
+}
+body {
+  background-color: #CCC;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 40px;
+    font-family: georgia;
+    font-size: 20px;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    color: #7B00FF;
+    background-color: white;
+    text-shadow:  2px 8px 6px rgba(0,0,0,0.2),
+                  0px -5px 35px rgba(255,255,255,0.3);
+}
+#album-form {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 40px;
+    font-family: georgia;
+    font-size: 15px;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    color: black;
+    background-color: white;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+#singlebutton {
+  font: lucida;
+  font-size: 15px;
+  color: black;
+  background-color: skyblue;
+  font-weight: bolder;
+  text-shadow: 2px 2px 8px yellow;
+}
