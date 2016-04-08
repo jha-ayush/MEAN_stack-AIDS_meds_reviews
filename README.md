@@ -12,7 +12,8 @@
 ### Pre-work tasks:
 - Create project01 github Repository
 - Create corresponding Heroku page: https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md
-- npm init and npm install
+- 'npm init' & 'npm install' & 'npm install mongoose'
+
 
 
 ### Tasks:
