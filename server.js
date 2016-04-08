@@ -7,10 +7,11 @@ var express = require('express');
 var app = express();
 
 
+// serve static files from public folder
+app.use(express.static(__dirname + '/public'));
 
-
-
-
+//require controllers
+var controllers = require('./controllers');
 
 
 
@@ -23,24 +24,9 @@ var app = express();
  */
 
 //GET homepage
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.get('/', function homepage (req, res) {
+  res.sendFile(__dirname + '/views/index.html');
+});
 
 
 
@@ -48,13 +34,8 @@ var app = express();
  * JSON API Endpoints
  */
 
- var controllers = require('./controllers');
-
-
-
-
-
-
+app.get('/api', controllers.api.index);
+app.get('/api/medications', controllers.medicationsController.index);
 
 
 /**********

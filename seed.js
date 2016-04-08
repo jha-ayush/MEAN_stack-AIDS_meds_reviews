@@ -1,6 +1,6 @@
 var db = require ("./models");
 
-var aidsMedicationInfo = [
+var medicationsList = [
     {
       drugName: "COMPLERA (EMTRICITABINE, RILPIVIRINE HYDROCHLORIDE, AND TENOFOVIR DISOPROXIL FUMARATE)",
       drugDescription: "TABLET, FILM COATED",
@@ -178,7 +178,7 @@ var aidsMedicationInfo = [
     }
 ];
 
-var medicationReviews = [
+var reviewsList = [
     {
       sideEffects: "Buildup of lactic acid in the blood, liver problems. Breathing trouble, irregular heartbeat, muscle pain, nausea, vomiting and feeling cold in  arms and legs. Inflamed eyes, jaundice.",
       ageGroups: "Adults children 12 years of age and older.",

@@ -12,8 +12,16 @@
 ### Pre-work tasks:
 - Create project01 github Repository
 - Create corresponding Heroku page: https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md
-- npm install
+- npm init and npm install
 
+
+### Tasks:
+- Sprint 1: serve & display hard-coded data on the page, then connect to a database
+- Sprint 2: add a form and support creation of new data
+- Sprint 3: add mongo embedded medication reviews data
+- Sprint 4: delete single review
+- Sprint 5: edit and update review info
+- Sprint 6: update review & delete reviews
 
 
 #### Heroku url:
