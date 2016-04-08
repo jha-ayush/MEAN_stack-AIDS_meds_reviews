@@ -180,131 +180,131 @@ var aidsMedicationInfo = [
 
 var medicationReviews = [
     {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      preExistingConditions: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
-    },
-    {
-      sideEffects: "",
-      ageGroups: "",
-      additionalComments: ""
+      sideEffects: "Buildup of lactic acid in the blood, liver problems. Breathing trouble, irregular heartbeat, muscle pain, nausea, vomiting and feeling cold in  arms and legs. Inflamed eyes, jaundice.",
+      ageGroups: "Adults children 12 years of age and older.",
+      additionalComments: "Talk to your Healthcare professional to monitor your symptoms."
     }
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   preExistingConditions: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // },
+    // {
+    //   sideEffects: "",
+    //   ageGroups: "",
+    //   additionalComments: ""
+    // }
 
 ];
 
