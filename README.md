@@ -1,10 +1,10 @@
 # Project01_GlobalAPI
 
-## Heroku url: https://fast-cliffs-18726.herokuapp.com/ |  https://git.heroku.com/fast-cliffs-18726.git
+#### Heroku url: https://fast-cliffs-18726.herokuapp.com/ |  https://git.heroku.com/fast-cliffs-18726.git
 
-## GitHub Repository: https://github.com/jha-ayush/Project01_GlobalAPI
+#### GitHub Repository: https://github.com/jha-ayush/Project01_GlobalAPI
 
-## External API used: GET http://aidsinfo.nih.gov/api/drugs
+#### External API used: GET http://aidsinfo.nih.gov/api/drugs
 
 
 ### Goal:

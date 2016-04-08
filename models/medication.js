@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
-var MedicationReview = require('./review');
+var MedicationReview = require('./medicationReview');
 
 var MedicationSchema = new Schema ({
 

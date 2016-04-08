@@ -4,5 +4,5 @@ mongoose.connect(process.env.MONGOLAB_URI ||
                   "mongodb://localhost/medications");
 
 
-module.exports.Drug = require("./drug.js");
-module.exports.DrugReview = require("./drugReview.js");
+module.exports.Medication = require("./medication.js");
+module.exports.MedicationReview = require("./medicationReview.js");
