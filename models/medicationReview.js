@@ -4,7 +4,6 @@ var Schema = mongoose.Schema;
 var ReviewSchema = new Schema({
   sideEffects: String,
   ageGroups: String,
-  preExistingConditions: String,
   additionalComments: String
 });
 

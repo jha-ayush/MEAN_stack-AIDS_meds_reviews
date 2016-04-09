@@ -76,7 +76,7 @@ app.get('/', function homepage (req, res) {
 
 
 // GET routes
-// app.get('/api', controllers.api.index);
+app.get('/api', controllers.api.index);
 app.get('/api/medications', controllers.medications.index);
 
 

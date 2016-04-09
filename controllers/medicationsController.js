@@ -187,7 +187,7 @@ var db = require('./models');
 
 // GET /api/albums
 function index(req, res) {
-  res.json(albums);
+  res.json(medications);
   db.Medication.find({}, function (err, foundMedications) {
       if (err) {
         console.err ("Error: " , err);
