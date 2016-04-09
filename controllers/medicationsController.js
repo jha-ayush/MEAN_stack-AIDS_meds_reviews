@@ -181,9 +181,19 @@ var medications = [
     }
 ];
 
+
+//require .models in our app
+var db = require('./models');
+
 // GET /api/albums
 function index(req, res) {
-  // FILL ME IN !
+  res.json(albums);
+  db.Medication.find({}, function (err, foundMedications) {
+      if (err) {
+        console.err ("Error: " , err);
+      }
+      res.json(foundMedications);
+    });
 }
 
 function create(req, res) {

@@ -1,3 +1,5 @@
+// This file allows us to seed our application with data
+
 var db = require ("./models");
 
 var medications = [
