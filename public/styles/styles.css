@@ -1,13 +1,16 @@
 .jumbotron {
     background-image: url('/images/AIDS_redRibbon.png');
+    width 100%;
+    position: relative;
+    top: 20px;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat center;
     color: #EEE;
     background-color: white;
     text-shadow: 2px 2px 5px lightgreen;
 }
 .jumbotron .container {
-    height: 350px;
+    height: 250px;
 }
 .inline-header {
     display: inline-block;
@@ -15,9 +18,9 @@
     margin-right: 12px;
 }
 h2 {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
-    font-size: 28px;
+    font-size: 35px;
     font-style: italic;
     text-decoration: underline;
     font-family: lucida;
@@ -28,15 +31,15 @@ body {
   background-color: #CCC;
 }
 legend {
+    text-align: center;
     display: block;
     width: 100%;
-    padding: 20px;
-    margin-bottom: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
     font-family: georgia;
-    font-size: 20px;
+    font-size: 25px;
     color: #333;
-    border: 0;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
     color: #7B00FF;
     background-color: #E6E6FA;
     text-shadow:  2px 8px 6px rgba(0,0,0,0.2),
