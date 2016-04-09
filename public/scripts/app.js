@@ -186,6 +186,9 @@ var medicationsList = [
 function successHandle (json) {
     console.log("Success" , json);
   }
+
+
+function errorHandle (err) {
     console.err("Error! Failed to load All meditications" + err);
   }
 //End Success & Error handle functions
@@ -234,9 +237,9 @@ $.get('/api/medications').success(function (medications) {
     $.ajax({
         method: "GET",
         url: "/api/medications",
-        success: successHandle("success! all AIDS meds: " , json);
-        }
-    });
+        success: successHandle("success! all AIDS meds: " , json),
+        error: errorHandle("error" , err)
+        });
 
 
     //Render Handlebars for id-albums
