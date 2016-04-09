@@ -17,12 +17,14 @@
 
 
 ### Tasks:
-- Sprint 1: serve & display hard-coded data on the page, then connect to a database
-- Sprint 2: add a form and support creation of new data
-- Sprint 3: add mongo embedded medication reviews data
-- Sprint 4: delete single review
-- Sprint 5: edit and update review info
-- Sprint 6: update review & delete reviews
+- Sprint 1: User enters page url and sees the main page.
+- Sprint 2: User clicks on "Search medications database" to view the hidden medications list (hard-coded data).
+- Sprint 3: User can click on a single medication for a review-modal pop-up.
+- Sprint 4: add a form and support creation of new data
+- Sprint 5: add mongo embedded medication reviews data
+- Sprint 6: delete single review
+- Sprint 7: edit and update review info
+- Sprint 8: update review & delete reviews
 
 
 #### Heroku url:
