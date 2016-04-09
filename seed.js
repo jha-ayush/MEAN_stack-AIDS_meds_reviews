@@ -183,19 +183,19 @@ var medications = [
 var reviewsList = [
     {
       sideEffects: "Buildup of lactic acid in the blood, liver problems. Breathing trouble, irregular heartbeat, muscle pain, nausea, vomiting and feeling cold in  arms and legs. Inflamed eyes, jaundice.",
-      ageGroups: "Adults children 12 years of age and older.",
+      ageGroups: "Adults, children 12 years of age and older.",
       additionalComments: "Talk to your Healthcare professional to monitor your symptoms."
+    },
+    {
+      sideEffects: "Injection site reaction, skin rash, nausea, chills, vomitting, shortness of breath.",
+      ageGroups: "Adults, children 6 years of age and older.",
+      additionalComments: "Talk to your Healthcare professional to monitor your symptoms. Used in combination with other HIV drugs."
+    },
+    {
+      sideEffects: "Liver problems, prancreatitis, heart arythmia, severe allergic reactions, jaundice. Stomach pain, dizziness, dark-colored urine.",
+      ageGroups: "Adults, children 14 days of age and older.",
+      additionalComments: "Talk to your Healthcare professional to monitor your symptoms & any pre-existing conditions."
     }
-    // {
-    //   sideEffects: "",
-    //   ageGroups: "",
-    //   additionalComments: ""
-    // },
-    // {
-    //   sideEffects: "",
-    //   ageGroups: "",
-    //   additionalComments: ""
-    // },
     // {
     //   sideEffects: "",
     //   ageGroups: "",
