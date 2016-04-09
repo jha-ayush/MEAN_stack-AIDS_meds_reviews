@@ -179,18 +179,16 @@ var medicationsList = [
       imageURL: "http://chem.sis.nlm.nih.gov/chemidplus/RenderImage?maxscale=30&width=400&height=400&superlistid=0036791045"
     }
 ];
-
+// ** End hard-coded medications database ** 
 
 
 //Success & Error handle functions
 function successHandle (json) {
     console.log("Success" , json);
-  }
-
-
+}
 function errorHandle (err) {
     console.err("Error! Failed to load All meditications" + err);
-  }
+}
 //End Success & Error handle functions
 
 // this function takes a single medication and renders it to the page

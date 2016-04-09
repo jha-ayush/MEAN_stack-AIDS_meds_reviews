@@ -15,6 +15,23 @@ var controllers = require('./controllers');
 
 
 
+// parse incoming urlencoded form data
+// and populate the req.body object
+var bodyParser = require('body-parser');
+app.use( bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
+
+/************
+ * DATABASE *
+ ************/
+
+var db = require('./models');
+
+
+
+
 /**********
  * ROUTES *
  **********/
