@@ -55,7 +55,7 @@ app.get('/', function homepage (req, res) {
  app.get('/api', function api_index(req, res) {
    res.json({
      endpointsDocumented: true,
-     message: "Personal API. Here's what you need to know!",
+     message: "AIDS medications review database.",
      documentation_url: "https://github.com/jha-ayush/Project01_GlobalAPI/README.md",
      base_url: "http://fast-cliffs-18726.herokuapp.com",
      endpoints: [

@@ -183,16 +183,16 @@ var medications = [
 
 
 //require .models in our app
-var db = require('./models');
+var db = require('../models');
 
 // GET /api/albums
 function index(req, res) {
-  res.json(medications);
-  db.Medication.find({}, function (err, foundMedications) {
+  // res.json(medications);
+  db.Medication.find({}, function (err, medications) {
       if (err) {
         console.err ("Error: " , err);
       }
-      res.json(foundMedications);
+      res.json(medications);
     });
 }
 
