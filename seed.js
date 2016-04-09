@@ -1,6 +1,6 @@
 var db = require ("./models");
 
-var medicationsList = [
+var medications = [
     {
       drugName: "COMPLERA (EMTRICITABINE, RILPIVIRINE HYDROCHLORIDE, AND TENOFOVIR DISOPROXIL FUMARATE)",
       drugDescription: "TABLET, FILM COATED",
@@ -315,7 +315,7 @@ var reviewsList = [
 //Clear previous result & reseed with database data
 db.Medication.remove({}, function(err, albums){
 
-  db.Medication.create(medicationsList, function(err, albums){
+  db.Medication.create(medications, function(err, albums){
     if (err) {
       return console.err('ERROR', err);
     }

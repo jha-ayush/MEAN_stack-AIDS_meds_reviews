@@ -205,6 +205,21 @@ $(document).ready(function() {
   console.log("app.js is loaded & running");
 // End document ready
 
+//Submit form function
+$('#medication-form').on('submit', function(element) {
+   element.preventDefault();
+   var dataSubmit = $(this).serialize();
+   console.log('Data submitted: ', dataSubmit);
+  //  $(this).trigger("reset");
+   console.log('formData', dataSubmit);
+   $.post('/api/medications', dataSubmit, function(medication) {
+     console.log('medication after POST', medication);
+     renderMedication(medication);  //render the server's response
+   });
+   $(this).trigger("reset");
+ });
+
+
 //Render single medication
 // renderMedication(medicationsList[0]);
 
@@ -215,34 +230,19 @@ $.get('/api/medications').success(function (medications) {
     });
 
 
+    // GET ajax call for all medications   localhost:3000/api/medications
+    $.ajax({
+        method: "GET",
+        url: "/api/medications",
+        success: successHandle("success! all AIDS meds: " , json);
+        }
+    });
 
 
-// Get localhost:3000/api/medications
-  $.ajax({
-  method: "GET",
-  url: "http://aidsinfo.nih.gov/api/drugs",
-  onSuccess: function successHandle(medications) {
-    console.log("success! all AIDS meds: " , medications);
-  },
-  onError: function errorHandle() {
-    console.error("Failed to load all AIDS medication!");
-  }
-  });
-
-
-  //Submit form function
-  $('#medication-form').on('submit', function(element) {
-     element.preventDefault();
-     var dataSubmit = $(this).serialize();
-     console.log('Data submitted: ', dataSubmit);
-    //  $(this).trigger("reset");
-     console.log('formData', dataSubmit);
-     $.post('/api/medications', dataSubmit, function(medication) {
-       console.log('medication after POST', medication);
-       renderMedication(medication);  //render the server's response
-     });
-     $(this).trigger("reset");
-   });
+    //Render Handlebars for id-albums
+    var source   = $("#medications").html();
+    var template = Handlebars.compile(source);
+    });
 
 
 });
