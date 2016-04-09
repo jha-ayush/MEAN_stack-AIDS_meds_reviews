@@ -200,9 +200,9 @@ var reviewsList = [
 
 
 //Clear previous result & reseed with database data
-db.Medication.remove({}, function(err, albums){
+db.Medication.remove({}, function(err, medications){
 
-  db.Medication.create(medications, function(err, albums){
+  db.Medication.create(medications, function(err, medications){
     if (err) {
       return console.err('ERROR', err);
     }

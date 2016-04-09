@@ -6,7 +6,6 @@ var MedicationReview = require('./medicationReview');
 var MedicationSchema = new Schema({
   drugName: String,
   drugDescription: String,
-  approvedUse: String,
   drugClass: String,
   companyName: String,
   imageURL: String
