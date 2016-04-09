@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url('/images/AIDS_redRibbon.jpg');
+    background-image: url('/images/AIDS_redRibbon.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: #EEE;
@@ -15,7 +15,7 @@
     margin-right: 12px;
 }
 h2 {
-    margin-top: 400px;
+    margin-top: 40px;
     text-align: center;
     font-size: 28px;
     font-style: italic;
