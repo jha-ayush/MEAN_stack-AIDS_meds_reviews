@@ -1,4 +1,4 @@
-.jumbotron {
+/*.jumbotron {
     background-image: url('/images/AIDS_redRibbon.png');
     width 100%;
     position: relative;
@@ -11,13 +11,51 @@
 }
 .jumbotron .container {
     height: 250px;
+}*/
+#header{
+  background-color: ghostwhite;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 29px;
+  width: 570px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+#subtitle {
+  font-size: 16px;
+  text-align: center;
+}
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+
+.aMedication {
+  min-width: 340px;
+  max-width: 600px;
+  flex: 1;
+  margin: 15px;
+  background-color: lavenderblush;
+}
+
+#medications {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.iconImage{
+  text-align: center;
+}
+
 .inline-header {
     display: inline-block;
     vertical-align: baseline;
     margin-right: 12px;
 }
-h2 {
+/*h1 {
     margin-top: 10px;
     text-align: center;
     font-size: 35px;
@@ -25,7 +63,7 @@ h2 {
     font-family: lucida;
     font-weight: bold;
     color: black;
-}
+}*/
 body {
   background-color: #CCC;
 }
@@ -58,6 +96,7 @@ legend {
     background-color: white;
     text-shadow: 2px 2px 8px #FF0000;
 }
+
 #singlebutton {
   font: lucida;
   font-size: 15px;

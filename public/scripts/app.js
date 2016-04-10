@@ -237,8 +237,8 @@ $('#medication-form').on('submit', function(element) {
     $.ajax({
         method: "GET",
         url: "/api/medications",
-        success: successHandle("success! all AIDS meds: " , json),
-        error: errorHandle("error" , err)
+        success: successHandle,
+        error: errorHandle
         });
 
 

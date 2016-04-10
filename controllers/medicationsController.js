@@ -192,20 +192,21 @@ function index(req, res) {
       if (err) {
         console.err ("Error: " , err);
       }
-      res.json(medications);
+      console.log(medications);
+      // res.json(medications);
     });
 }
 
 // GET /api/medications/:id/reviews
-function index(req, res) {
-  res.json(medicationReviews);
-  db.medicationReview.find({}, function (err, medicationReviews) {
-      if (err) {
-        console.err ("Error: " , err);
-      }
-      res.json(medicationReviews);
-    });
-}
+// function index(req, res) {
+//   res.json(medicationReview);
+//   db.medicationReview.find({}, function (err, medicationReview) {
+//       if (err) {
+//         console.err ("Error: " , err);
+//       }
+//       res.json(medicationReview);
+//     });
+// }
 
 function create(req, res) {
   // FILL ME IN !

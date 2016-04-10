@@ -18,7 +18,7 @@ var controllers = require('./controllers');
 // parse incoming urlencoded form data
 // and populate the req.body object
 var bodyParser = require('body-parser');
-app.use( bodyParser.json());
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 
@@ -79,7 +79,7 @@ app.get('/', function homepage (req, res) {
 app.get('/api', controllers.api.index);
 app.get('/api/medications', controllers.medications.index);
 
-app.get('/api/medications/:id/reviews', controller.medications.index);
+// app.get('/api/medications/:id/reviews', controller.medications.index);
 
 
 
