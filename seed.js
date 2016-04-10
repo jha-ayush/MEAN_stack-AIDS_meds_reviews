@@ -215,3 +215,18 @@ db.Medication.remove({}, function(err, medications){
   });
 
 });
+
+
+//Clear previous result & reseed with database data
+db.Review.remove({}, function(err, reviewsList){
+
+  db.Review.create(reviewsList, function(err, reviewsList){
+    if (err) {
+      return console.err('ERROR', err);
+    }
+      console.log("all reviews: ", reviewsList);
+      console.log("created ", reviewsList.length, " reviewsList");
+      process.exit();
+  });
+
+});
