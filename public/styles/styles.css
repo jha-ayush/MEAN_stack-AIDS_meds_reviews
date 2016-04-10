@@ -31,6 +31,7 @@
 }
 .description{
   margin-left:10px;
+  margin-bottom: 5px;
   font-size: 10px;
   font-style: italic;
   text-decoration: underline;
@@ -41,11 +42,14 @@
   margin-left:10px;
 }
 #medClass{
-  font-weight: normal;
+  font-weight: 500;
+  font: lucida;
 }
 #mfgCompany{
-  font-weight: bold;
   font-family: cursive;
+  font: georgia;
+  font-weight: bolder;
+  margin-bottom: 5px;
 }
 
 .aMedication {
