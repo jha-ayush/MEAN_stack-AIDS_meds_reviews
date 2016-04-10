@@ -23,12 +23,14 @@
           box-shadow: 0 8px 6px -6px black;
 }
 .name{
+  font-size: 20px;
   font-weight: bolder;
   font: lucida;
   text-shadow: 2px 2px 4px lemonchiffon;
 }
 .description{
   margin-left:10px;
+  font-size: 10px;
   font-style: italic;
   text-decoration: underline;
   font: lucida;
@@ -36,6 +38,11 @@
 }
 .details{
   margin-left:10px;
+}
+#medClass{
+  font-weight: normal;
+}
+#mfgCompany{
   font-weight: bold;
 }
 
