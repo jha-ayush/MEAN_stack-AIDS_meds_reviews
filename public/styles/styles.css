@@ -24,7 +24,7 @@
 }
 .name{
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bolder;
   font: lucida;
   text-shadow: 2px 2px 4px lemonchiffon;
@@ -38,6 +38,7 @@
   text-decoration: underline;
   font: lucida;
   font-weight: normal;
+  color: blue;
 }
 .details{
   margin-left:10px;
@@ -46,16 +47,17 @@
 #medClass{
   font-weight: 500;
   font: lucida;
+  color: firebrick;
 }
 #mfgCompany{
   margin-top: 10px;
   font-family: cursive;
   font-size: 16px;
-  color: crimson;
+  color: forestgreen;
   font: georgia;
   font-weight: bolder;
   margin-bottom: 5px;
-  border-bottom:2px solid midnightblue;
+  border-bottom:2px solid crimson;
 }
 
 .aMedication {
@@ -78,6 +80,7 @@
 }
 .actions{
   margin-left: 10px;
+  margin-right:10px;
   margin-bottom: 5px;
 }
 body {
