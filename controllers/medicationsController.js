@@ -178,6 +178,20 @@ var medications = [
       drugClass: "Opportunistic Infections and Coinfections",
       companyName: "Merck Sharp and Dohme Corp.",
       imageURL: "http://chem.sis.nlm.nih.gov/chemidplus/RenderImage?maxscale=30&width=400&height=400&superlistid=0036791045"
+    },
+    {
+      drugName: "RETROVIR (ZIDOVUDINE), AZITHROMYCIN(AZT)",
+      drugDescription: "CAPSULE",
+      drugClass: "Nucleoside Reverse Transcriptase Inhibitors",
+      companyName: "VIIV Healthcare Company",
+      imageURL: "http://aidsinfo.nih.gov/images/drugImages/full/Zidovudine-Retrovir_100mg_Capsule_GSK.jpg"
+    },
+    {
+      drugName: "FLUCONAZOLE INJECTION",
+      drugDescription: "SOLUTION",
+      drugClass: "Opportunistic Infections and Coinfections",
+      companyName: "Pfizer, Inc.",
+      imageURL: "http://chem.sis.nlm.nih.gov/chemidplus/RenderImage?maxscale=30&width=400&height=400&superlistid=0086386734"
     }
 ];
 
