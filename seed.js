@@ -218,15 +218,31 @@ db.Medication.remove({}, function(err, medications){
 
 
 //Clear previous result & reseed with database data
-db.Review.remove({}, function(err, reviewsList){
+// db.Review.remove({}, function(err, reviewsList){
+//
+//   db.Review.create(reviewsList, function(err, reviewsList){
+//     if (err) {
+//       return console.err('ERROR', err);
+//     }
+//       console.log("all reviews: ", reviewsList);
+//       console.log("created ", reviewsList.length, " reviewsList");
+//       process.exit();
+//   });
+//
+// });
 
-  db.Review.create(reviewsList, function(err, reviewsList){
+//Find medication name for single review
+db.Medication.findOne({name: reviewData.drugName}, function (err, foundMed) {
+  console.log('found Med ' + foundMed.name + ' for review ' + review.title);
+  if (err) {
+    console.log(err);
+    return;
+  }
+  review.drugName = foundMed;
+  review.save(function(err, savedReview){
     if (err) {
-      return console.err('ERROR', err);
+      return console.log(err);
     }
-      console.log("all reviews: ", reviewsList);
-      console.log("created ", reviewsList.length, " reviewsList");
-      process.exit();
+    console.log('saved ' + savedReview.title + ' by ' + foundMed.name);
   });
-
 });

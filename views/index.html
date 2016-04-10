@@ -36,69 +36,54 @@
 
     <!-- medications! -->
     <div id='medications'>
-      <div>
-        <div> <img src="images/ReadIcon.png" width="25px">
-          <input type="text" placeholder="Read-only view"/>
-        </div>
-        <div> <img src="images/EditIcon2.png" width="25px">
-          <input type="text" placeholder="side-effects"/><br>
-          <input type="text" placeholder="patient's age"/><br>
-          <input type="text" placeholder="additional comments"/><br>
-        </div>
-        <div> <img src="images/DeleteIcon.png" width="25px">
-          <input type="text" placeholder="Delete review"/>
-        </div>
     </div>
 
-    <!-- begin reviewModal: this is not visible until you call .modal() on it -->
-    <div class="modal fade" tabindex="-1" role="dialog" id="reviewModal">
+    <!-- Write Modal -->
+    <div id="writeModal" class="modal fade" role="dialog">
       <div class="modal-dialog">
+        <!-- Modal content-->
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Create Review</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Write review</h4>
           </div>
           <div class="modal-body">
-
-            <fieldset class='form-horizontal'>
-
-              <!-- Text input-->
-              <div class="form-group">
-                <label class="col-md-4 control-label" for="sideEffects">Enter side-effects</label>
-                <div class="col-md-4">
-                  <input id="sideEffect" name="sideEffect" type="text" placeholder="Enter side effects" class="form-control input-md" required="">
-                </div>
-              </div>
-              <br>
-
-              <!-- Text input-->
-              <div class="form-group">
-                <label class="col-md-4 control-label" for="ageGroups">Enter patient's age</label>
-                <div class="col-md-4">
-                  <input id="ageGroups" name="ageGroups" type="text" placeholder="Enter patient's age" class="form-control input-md">
-                </div>
-              </div>
-              <br>
-
-              <!-- Text input-->
-              <div class="form-group">
-                <label class="col-md-4 control-label" for="additionalComments">Additional comments</label>
-                <div class="col-md-4">
-                  <input id="additionalComments" name="additionalComments" type="text" placeholder="Enter additional comments" class="form-control input-md">
-                </div>
-              </div>
-              <br>
-
-            </fieldset>
-
+            <div>
+                <input type="text" placeholder="side-effects"/><br>
+                <input type="text" placeholder="patient's age"/><br>
+                <input type="text" placeholder="additional comments"/><br>
+                <button type="button" class="btn btn-success">Success</button>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" id="saveReview">Save Review</button>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Read Modal -->
+    <div id="readModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Reviews</h4>
+          </div>
+          <div class="modal-body">
+            <div>
+              <div>
+                <img src="images/DeleteIcon.png" width="25px">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Medications handlebars script -->
@@ -106,12 +91,18 @@
       <!-- one medication -->
       <div class="aMedication one-edge-shadow">
         <div class="name row">
-          <div class="col-sm-2 iconImage"> <img src="images/AIDSribbonIcon.png" width="60px"></div>
-          <div class="col-sm-10 drugName">{{drugName}}</div>
+          <div class="col-sm-2 iconImage">
+            <img src="images/AIDSribbonIcon.png" width="60px">
+          </div>
+          <div class="col-sm-10 drugName">
+            {{drugName}}
+          </div>
         </div>
 
         <div class="description">
-          <div>{{drugDescription}}</div>
+          <div>
+            {{drugDescription}}
+          </div>
         </div>
 
         <div class="details">
@@ -123,8 +114,24 @@
             </div>
         </div>
         <div class="actions">
-          Read <img src="images/PopupIcon.png" width="25px"/>
-          Write <img src="images/PopupIcon.png" width="25px"/>
+          <div class="actionTitle">
+            Reviews:
+          </div>
+          <div class="read">
+            <button type="button" class="btn btn-default"
+                  data-toggle="modal" data-target="#readModal">
+              Read
+              <img src="images/PopupIcon.svg" width="25px"/>
+            </button>
+          </div>
+
+          <div class="edit">
+            <button type="button" class="btn btn-default"
+                  data-toggle="modal" data-target="#writeModal">
+              Write
+              <img src="images/PopupIcon.svg" width="25px"/>
+            </button>
+          </div>
         </div>
         </div>
       </div>

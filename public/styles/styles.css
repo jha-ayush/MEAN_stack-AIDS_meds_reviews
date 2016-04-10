@@ -34,10 +34,10 @@
   margin-right:10px;
   margin-bottom: 4px;
   font-size: 11px;
-  text-decoration: underline;
+  font-style: italic;
   font: lucida;
   font-weight: normal;
-  color: mediumblue;
+  color: black;
 }
 .details{
   margin-left:10px;
@@ -65,7 +65,7 @@
   max-width: 600px;
   flex: 1;
   margin: 15px;
-  background-color: #CCCCFF;
+  background-color: lightsalmon;
 }
 
 #medications {
@@ -78,10 +78,24 @@
   text-align: center;
 }
 .actions{
-  margin-top:5px;
+  font-family: lucida;
+  font-weight: bold;
+  margin-top: 5px;
   margin-left: 10px;
-  margin-right:10px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  display: flex;
+}
+.actionTitle{
+  padding-top: 14px;
+}
+.read{
+  margin-left: 10px;
+  margin-right:5px;
+}
+.edit{
+  margin-left:5px;
+  margin-right:5px;
 }
 body {
   background-color: tomato;
