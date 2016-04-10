@@ -78,7 +78,7 @@ var medications = [
       drugName: "SUSTIVA (EFAVIRENZ) CAPSULE",
       drugDescription: "TABLET, FILM COATED",
       drugClass: "Non-nucleoside Reverse Transcriptase Inhibitors",
-      companyName: "BRISTOL-MYERS SQUIBB PHARMA COMPANY",
+      companyName: "Bristol-Myers Squibb Pharma Company",
       imageURL: "http://aidsinfo.nih.gov/images/drugImages/full/Efavirenzpill.JPG"
     },
     {
@@ -180,7 +180,7 @@ var medications = [
       imageURL: "http://chem.sis.nlm.nih.gov/chemidplus/RenderImage?maxscale=30&width=400&height=400&superlistid=0036791045"
     },
     {
-      drugName: "RETROVIR (ZIDOVUDINE), AZITHROMYCIN(AZT)",
+      drugName: "RETROVIR (ZIDOVUDINE), AZITHROMYCIN (AZT)",
       drugDescription: "CAPSULE",
       drugClass: "Nucleoside Reverse Transcriptase Inhibitors",
       companyName: "VIIV Healthcare Company",
