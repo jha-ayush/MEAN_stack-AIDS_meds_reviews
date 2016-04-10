@@ -4,7 +4,7 @@ var db = require ("./models");
 
 var medications = [
     {
-      drugName: "COMPLERA (EMTRICITABINE, RILPIVIRINE HYDROCHLORIDE, AND TENOFOVIR DISOPROXIL FUMARATE)",
+      drugName: "COMPLERA (EMTRICITABINE, RILPIVIRINE HYDROCHLORIDE)",
       drugDescription: "TABLET, FILM COATED",
       drugClass: "Combination Drugs",
       companyName: "Gilead Sciences, Inc.",

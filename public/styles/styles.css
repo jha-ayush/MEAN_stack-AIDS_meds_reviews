@@ -23,7 +23,8 @@
           box-shadow: 0 8px 6px -6px black;
 }
 .name{
-  font-size: 20px;
+  margin-top: 5px;
+  font-size: 18px;
   font-weight: bolder;
   font: lucida;
   text-shadow: 2px 2px 4px lemonchiffon;
@@ -44,6 +45,7 @@
 }
 #mfgCompany{
   font-weight: bold;
+  font-family: cursive lucida;
 }
 
 .aMedication {
@@ -66,32 +68,12 @@
 }
 .actions{
   margin-left: 10px;
+  margin-bottom: 5px;
 }
-
-/*.inline-header {
-    display: inline-block;
-    vertical-align: baseline;
-    margin-right: 12px;
-}*/
 body {
   background-color: tomato;
 }
-/*legend {
-    text-align: center;
-    display: block;
-    width: 100%;
-    padding: 30px;
-    margin-bottom: 20px;
-    font-family: georgia;
-    font-size: 25px;
-    color: #333;
-    border-bottom: 2px solid #e5e5e5;
-    color: #7B00FF;
-    background-color: #E6E6FA;
-    text-shadow:  2px 8px 6px rgba(0,0,0,0.2),
-                  0px -5px 35px rgba(255,255,255,0.3);
-}*/
-#album-form {
+#medication-form {
     display: block;
     width: 100%;
     padding: 50px;
@@ -105,7 +87,6 @@ body {
     background-color: white;
     text-shadow: 2px 2px 8px #FF0000;
 }
-
 #singlebutton {
   font: lucida;
   font-size: 15px;

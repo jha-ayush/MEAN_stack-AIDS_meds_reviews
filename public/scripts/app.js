@@ -197,7 +197,7 @@ function renderMedication(medication) {
   var medicationHtml = $('#medication-template').html();
   var medicationsTemplate = Handlebars.compile (medicationHtml);
   var html = medicationsTemplate(medication);
-  $('#medications').prepend(html);
+  $('#medications').append(html);
 }
 //end function
 

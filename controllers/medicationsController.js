@@ -193,7 +193,6 @@ function index(req, res) {
         console.err ("Error: " , err);
       }
       console.log(medications);
-      // res.json(medications);
     });
 }
 
