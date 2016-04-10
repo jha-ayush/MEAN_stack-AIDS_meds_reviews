@@ -48,8 +48,10 @@
 #mfgCompany{
   margin-top: 10px;
   font-family: cursive;
+  font-size: 16px;
+  color: crimson;
   font: georgia;
-  font-weight: 900;
+  font-weight: bolder;
   margin-bottom: 5px;
 }
 
@@ -91,6 +93,13 @@ body {
     color: black;
     background-color: white;
     text-shadow: 2px 2px 8px #FF0000;
+}
+#readReview{
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+#writeReview{
+  font-weight: bolder;
 }
 #singlebutton {
   font: lucida;
