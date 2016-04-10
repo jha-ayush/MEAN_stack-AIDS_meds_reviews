@@ -79,6 +79,8 @@ app.get('/', function homepage (req, res) {
 app.get('/api', controllers.api.index);
 app.get('/api/medications', controllers.medications.index);
 
+app.get('/api/medications/:id/reviews', controller.medications.index);
+
 
 
 
