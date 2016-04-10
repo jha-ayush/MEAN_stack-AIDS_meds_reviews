@@ -31,7 +31,7 @@
 }
 .description{
   margin-left:10px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   font-size: 10px;
   font-style: italic;
   text-decoration: underline;
@@ -46,6 +46,7 @@
   font: lucida;
 }
 #mfgCompany{
+  margin-top: 10px;
   font-family: cursive;
   font: georgia;
   font-weight: 900;
