@@ -1,20 +1,8 @@
-/*.jumbotron {
-    background-image: url('/images/AIDS_redRibbon.png');
-    width 100%;
-    position: relative;
-    top: 20px;
-    background-size: cover;
-    background-repeat: no-repeat center;
-    color: #EEE;
-    background-color: white;
-    text-shadow: 2px 2px 5px lightgreen;
-}
-.jumbotron .container {
-    height: 250px;
-}*/
 
 #header{
+  text-shadow: 2px 2px 4px slategray;
   background-color: navajowhite;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   padding-left: 30px;
@@ -26,14 +14,33 @@
 #subtitle {
   font-size: 16px;
   text-align: center;
+  text-decoration: underline;
+  font: georgia;
 }
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px black;
      -moz-box-shadow: 0 8px 6px -6px black;
           box-shadow: 0 8px 6px -6px black;
 }
+.name{
+  font-weight: bolder;
+  font: lucida;
+  text-shadow: 2px 2px 4px lemonchiffon;
+}
+.description{
+  margin-left:10px;
+  font-style: italic;
+  text-decoration: underline;
+  font: lucida;
+  font-weight: normal;
+}
+.details{
+  margin-left:10px;
+  font-weight: bold;
+}
 
 .aMedication {
+  font:lucida;
   min-width: 340px;
   max-width: 600px;
   flex: 1;
@@ -50,16 +57,19 @@
 .iconImage{
   text-align: center;
 }
+.actions{
+  margin-left: 10px;
+}
 
-.inline-header {
+/*.inline-header {
     display: inline-block;
     vertical-align: baseline;
     margin-right: 12px;
-}
+}*/
 body {
   background-color: tomato;
 }
-legend {
+/*legend {
     text-align: center;
     display: block;
     width: 100%;
@@ -73,7 +83,7 @@ legend {
     background-color: #E6E6FA;
     text-shadow:  2px 8px 6px rgba(0,0,0,0.2),
                   0px -5px 35px rgba(255,255,255,0.3);
-}
+}*/
 #album-form {
     display: block;
     width: 100%;
