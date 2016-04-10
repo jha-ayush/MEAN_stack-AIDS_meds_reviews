@@ -38,15 +38,6 @@
     <div id='medications'>
     </div>
 
-    <div id="readReview">Read review
-    </div>
-
-    <div id="writeReview">Write review
-        <input type="text" placeholder="side-effects"/>
-        <input type="text" placeholder="patient's age"/>
-        <input type="text" placeholder="additional comments"/>
-    </div>
-
     <!-- begin reviewModal: this is not visible until you call .modal() on it -->
     <div class="modal fade" tabindex="-1" role="dialog" id="reviewModal">
       <div class="modal-dialog">
@@ -121,8 +112,14 @@
         </div>
         <div class="actions">
             <div>Reviews:
-              <span img src="images/ReadIcon.png" width="15px" height="15px"</img>Read</span>
-              <span img src="images/EditIcon.png" width="15px" height="15px"</img>Edit</span>
+              <span img src="images/ReadIcon.png" width="15px" height="15px"</img>Read
+                <input type="text" placeholder="Read-only view"/>
+              </span>
+              <span img src="images/EditIcon.png" width="15px" height="15px"</img>Edit
+                <input type="text" placeholder="side-effects"/>
+                <input type="text" placeholder="patient's age"/>
+                <input type="text" placeholder="additional comments"/>
+              </span>
             </div>
         </div>
       </div>
