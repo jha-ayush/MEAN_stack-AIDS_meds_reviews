@@ -204,7 +204,7 @@ function init() {
     console.log('Medications removed');
     db.Medication.create(medications, function(err, meds){
       if (err) {
-        console.log(err);
+        console.err(err);
         return;
       }
       console.log("Created medications: ", meds.length);

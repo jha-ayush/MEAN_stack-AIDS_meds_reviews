@@ -89,11 +89,14 @@
 .actionTitle{
   padding-top: 14px;
 }
+.modal-body{
+  margin-bottom: 10px;
+}
 .read{
   margin-left: 10px;
   margin-right:5px;
 }
-.edit{
+.write{
   margin-left:5px;
   margin-right:5px;
 }
