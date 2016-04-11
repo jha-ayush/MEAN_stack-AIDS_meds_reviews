@@ -76,9 +76,12 @@ $(document).ready(function() {
   });
 
 
+
+
 // Delete review
   $(document).on('click', '.trashIcon', function() {
     var that = this;
+    console.log($(this).attr('data-id'));
     $.ajax({
       method: 'DELETE',
       url: '/api/reviews/' + $(this).attr('data-id'),
