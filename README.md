@@ -37,7 +37,7 @@ GET http://aidsinfo.nih.gov/api/drugs
 
 #### Wireframes:
 - **Main page:**
-##### <img src="{"mockup":{"controls":{"control":[{"ID":"0","measuredH":"400","measuredW":"450","properties":{"text":"AIDS medication review\nhttp://localhost:3000/\n "},"typeID":"BrowserWindow","x":"99","y":"17","zOrder":"0"}]},"measuredH":"417","measuredW":"549","mockupH":"400","mockupW":"450","version":"1.0"}}" width="60"> Main Page
+##### <img src="/Users/ayushjha/Downloads/Wireframe_Project01.jpg" width="90"> Main Page
 
 - **Read modal:**
 - **Write modal:**
