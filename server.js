@@ -29,10 +29,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 var db = require('./models');
 
-//Initialize DB
-controllers.medications.resetDB();
-controllers.medicationsReview.resetDB();
-
 
 /**********
  * ROUTES *
@@ -47,7 +43,6 @@ app.get('/', function homepage (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-
 // GET routes
 
 /*
@@ -60,11 +55,6 @@ app.get('/api/medications/:name', controllers.medications.getOne);
 app.get('/api/reviews/:medication', controllers.medicationsReview.getReviewsForMedication);
 app.delete('/api/reviews/:id', controllers.medicationsReview.destroy);
 app.post('/api/reviews', controllers.medicationsReview.create);
-
-
-// app.get('/api/medications/:id/reviews', controller.medications.index);
-
-
 
 
 /**********

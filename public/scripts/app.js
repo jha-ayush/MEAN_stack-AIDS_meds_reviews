@@ -67,16 +67,19 @@ $(document).ready(function() {
       data: review,
       success: function(data) {console.log(data);},
       error: function(err) {console.err(err);},
-    });
-
-
-
+      });
   });
 
 
-
-
-
+  $(document).on('click', '.trashIcon', function() {
+    var that = this;
+    $.ajax({
+      method: 'DELETE',
+      url: '/api/reviews/' + $(this).attr('data-id'),
+      success: function(data) {$(that).parent().remove();},
+      error: function(err) {console.err(err);},
+    });
+  });
 
   //Render single medication
   // renderMedication(medicationsList[0]);

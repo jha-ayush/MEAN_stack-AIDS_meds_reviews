@@ -106,6 +106,7 @@
 
 .trashIcon{
   text-align: right;
+  cursor: pointer;
 }
 .modal-body{
   margin-bottom: 10px;
