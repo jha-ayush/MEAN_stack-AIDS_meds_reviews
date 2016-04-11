@@ -32,7 +32,8 @@ $(document).ready(function() {
   console.log("app.js is loaded & running");
   // End document ready
 
-  //
+
+  //Click to read review
   $(document).on('click', '.read button', function (event){
     var drugName = this.getAttribute("data-name");
     var url = '/api/reviews/' + drugName;
@@ -45,6 +46,8 @@ $(document).ready(function() {
     });
   });
 
+
+  // Post new review
   $(document).on('click', '.write button', function (event){
       $('#ratingInput').val("");
       $('#sideEffectsInput').val("");
@@ -53,7 +56,7 @@ $(document).ready(function() {
       var drugName = this.getAttribute("data-name");
       $("#writeModal .modal-title-drugName").html(drugName);
   });
-
+// Save new review
   $(document).on('click', '#saveReviewButton', function (event){
     var review = {};
     review.ratings = $('#ratingInput').val();
@@ -71,6 +74,7 @@ $(document).ready(function() {
   });
 
 
+// Delete review
   $(document).on('click', '.trashIcon', function() {
     var that = this;
     $.ajax({
