@@ -76,14 +76,25 @@ $(document).ready(function() {
 
 // Delete review
   $(document).on('click', '.trashIcon', function() {
-    var that = this;
+    var variableTrash = this;
     $.ajax({
       method: 'DELETE',
       url: '/api/reviews/' + $(this).attr('data-id'),
-      success: function(data) {$(that).parent().remove();},
+      success: function(data) {$(variableTrash).parent().remove();},
       error: function(err) {console.err(err);},
     });
   });
+
+//Update review
+$(document).on('click', '.updateIcon', function() {
+  var variableUpdate = this;
+  $.ajax({
+    method: 'PUT',
+    url: '/api/reviews' + $(this).attr('data-id'),
+    success: function(data) {$(variableTrash).parent().remove();},
+    error: function(err) {console.err(err);},
+  });
+});
 
   //Render single medication
   // renderMedication(medicationsList[0]);

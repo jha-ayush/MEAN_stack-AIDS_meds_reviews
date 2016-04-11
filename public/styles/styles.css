@@ -106,7 +106,7 @@ color: tomato;
   font-weight: bold;
 }
 .aReview {
-  border-bottom: 2px chartreuse;
+  border-bottom: 2px solid black;
   margin-bottom: 10px;
   font-weight: normal;
 }
@@ -138,12 +138,14 @@ color: tomato;
 }
 
 .trashIcon{
-  margin-right:900px;
+  margin-left: 500px;
+  margin-bottom: 10px;
   text-align: right;
   cursor: pointer;
 }
 .UpdateIcon{
-  margin-right:700px;
+  margin-left: 600px;
+  margin-bottom: 10px;
   text-align: right;
   cursor: pointer;
 }
