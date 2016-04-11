@@ -90,18 +90,24 @@
 
     <script id="review-template" type="text/x-handlebars-template">
       <div class="aReview">
-        <div>
-          Rating: {{ratings}}
+          <div id="reviewRating">
+              Rating:
+            </div>
+            <span> {{ratings}} </span>
+        <div id="sideEffects">
+            Side-effects:
+          </div>
+          <span> {{sideEffects}} </span>
+        <div id="ageGroup">
+            Age:
         </div>
-        <div>
-          Side-effects: {{sideEffects}}
+        <span> {{ageGroups}} </span>
+        <div id="comments">
+          Comments:
         </div>
-        <div>
-          Age: {{ageGroups}}
+        <div> {{additionalComments}} </div>
         </div>
-        <div>
-          Comments: {{additionalComments}}
-        </div>
+      </div>
         <div class="trashIcon" data-id="{{_id}}">
           <img src="images/TrashIcon.png" width="25px">
         </div>
