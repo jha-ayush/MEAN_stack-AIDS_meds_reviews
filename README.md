@@ -37,7 +37,7 @@ GET http://aidsinfo.nih.gov/api/drugs
 
 #### Wireframes:
 - **Main page:**
-##### ![Web-App] (img src="/Users/ayushjha/Downloads/Wireframe_Project01.jpg" width="90")
+##### ![/Users/ayushjha/Downloads/Wireframe_Project01.jpg width="90"] 
 
 - **Read modal:**
 - **Write modal:**
