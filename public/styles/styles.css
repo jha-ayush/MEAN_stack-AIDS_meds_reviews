@@ -89,6 +89,10 @@
 .actionTitle{
   padding-top: 14px;
 }
+.modal-title-drugName{
+font-weight: bold;
+color: tomato;
+}
 #reviewRating{
   font-weight: bold;
 }
