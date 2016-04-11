@@ -97,7 +97,7 @@
 .commentsSection {
   vertical-align: middle;
 }
-.commentsInput {
+#commentsInput {
   width: 400px;
 }
 

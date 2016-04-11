@@ -46,9 +46,17 @@ $(document).ready(function() {
   });
 
   $(document).on('click', '.write button', function (event){
+    $('#ratingInput').val("");
+    $('#sideEffectsInput').val("");
+    $('#ageInput').val("");
+    $('#commentsInput').val("");
     var drugName = this.getAttribute("data-name");
     $("#writeModal .modal-title-drugName").html(drugName);
   });
+
+
+
+
 
 
   //Render single medication
