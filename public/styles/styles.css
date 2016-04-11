@@ -65,7 +65,7 @@
   max-width: 600px;
   flex: 1;
   margin: 15px;
-  background-color: lightsalmon;
+  background-color: lightskyblue;
 }
 
 #medications {
@@ -89,14 +89,25 @@
 .actionTitle{
   padding-top: 14px;
 }
+
+.aReview {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+.commentsSection {
+  vertical-align: middle;
+}
+.commentsInput {
+  width: 400px;
+}
+
+.trashIcon{
+  text-align: right;
+}
 .modal-body{
   margin-bottom: 10px;
 }
-.btn-success{
-  margin-left:500px;
-  margin-top:20px;
-  margin-bottom: 20px;
-}
+
 .read{
   margin-left: 10px;
   margin-right:5px;
