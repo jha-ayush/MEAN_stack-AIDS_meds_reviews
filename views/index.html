@@ -47,8 +47,9 @@
             <div>
                 <input type="text" placeholder="Rating: Out of 5" name="ratingInput" id="ratingInput" />
                 <input type="text" placeholder="Patient's age" name="ageInput" id="ageInput"/>
-                <div>
-                  <input type="text" placeholder="Side-effects" name="sideEffectsInput" id="sideEffectsInput"/>
+                <div class="sideEffectsWrite">
+                  <div> Side-Effects: </div>
+                  <textarea name="sideEffectsInput" id="sideEffectsInput"></textarea>
                 </div>
                 <div class="commentsSection">
                   <div> Comments: </div>
@@ -93,7 +94,7 @@
         <div id="sideEffects">
             Side-effects:
           </div>
-          <span> {{sideEffects}} </span>
+          <div> {{sideEffects}} </div>
         <div id="ageGroup">
             Age:
         </div>

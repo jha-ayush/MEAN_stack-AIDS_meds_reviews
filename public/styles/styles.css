@@ -110,26 +110,30 @@ color: tomato;
   margin-bottom: 10px;
   font-weight: normal;
 }
-
+.sideEffectsWrite{
+  font-weight: bold;
+  margin-top: 5px;
+  vertical-align: middle;
+}
 .commentsSection {
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 5px;
   vertical-align: middle;
 }
 #ratingInput{
-  margin-left:10px;
+  margin-bottom: 40px;
 }
 #ageInput{
-  margin-left: 40px;
+  margin-left: 50px;
+  margin-bottom: 40px;
 }
 #sideEffectsInput{
-  margin-top: 30px;
+  margin-top: 5px;
   margin-bottom:20px;
-  margin-left: 10px;
+  width: 300px;
 }
 #commentsInput {
-  margin-top:10px;
-  margin-left: 10px;
+  margin-top:5px;
   width: 400px;
 }
 #sideEffectsInput{
