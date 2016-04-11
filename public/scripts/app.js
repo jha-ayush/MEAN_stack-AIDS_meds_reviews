@@ -47,7 +47,7 @@ $(document).ready(function() {
   });
 
 
-  // Post new review
+// Post new review
   $(document).on('click', '.write button', function (event){
       $('#ratingInput').val("");
       $('#sideEffectsInput').val("");
@@ -58,6 +58,7 @@ $(document).ready(function() {
   });
 // Save new review
   $(document).on('click', '#saveReviewButton', function (event){
+    // event.preventDefault();
     var review = {};
     review.ratings = $('#ratingInput').val();
     review.sideEffects = $('#sideEffectsInput').val();
@@ -71,6 +72,7 @@ $(document).ready(function() {
       success: function(data) {console.log(data);},
       error: function(err) {console.err(err);},
       });
+  // Render prepend new review w/o page refresh
   });
 
 

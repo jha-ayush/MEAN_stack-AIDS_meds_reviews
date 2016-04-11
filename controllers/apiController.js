@@ -15,7 +15,6 @@ function index(req, res) {
       {method: "GET", path: "/api/reviews/:id", description: "Get details of a single review"},
       {method: "PUT", path: "/api/reviews/:id", description: "Update details of a single review"},
       {method: "DELETE", path: "/api/reviews/:id", description: "Delete a single review"}
-
     ]
   });
 }
