@@ -47,6 +47,3 @@ GET http://aidsinfo.nih.gov/api/drugs
 #### Back-end files:
 - /server.js
 - /seed.js
--
-
-#### Database files:
