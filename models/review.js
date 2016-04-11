@@ -3,11 +3,11 @@ var Schema = mongoose.Schema;
 var Medication = require('./medication');
 
 var ReviewSchema = new Schema({
-  rating: String,
+  ratings: String,
   sideEffects: String,
   ageGroups: String,
   additionalComments: String,
-  medicationName: {type: Schema.Types.ObjectId, ref: 'Medication'}
+  medication: {type: Schema.Types.ObjectId, ref: 'Medication'}
 
 });
 

@@ -223,6 +223,24 @@ function index(req, res) {
     });
 }
 
+function show(req, res) {
+  db.Medication.findOne({name: req.params.name }, function(err, data) {
+    res.json(data);
+  });
+}
+
+// function create(req, res) {
+//   // FILL ME IN !
+// }
+
+// function destroy(req, res) {
+//   // FILL ME IN !
+// }
+
+// function update(req, res) {
+//   // FILL ME IN !
+// }
+
 // GET /api/medications/:id/reviews
 // function index(req, res) {
 //   res.json(medicationReview);
@@ -234,29 +252,9 @@ function index(req, res) {
 //     });
 // }
 
-function create(req, res) {
-  // FILL ME IN !
-}
-
-function show(req, res) {
-  // FILL ME IN !
-}
-
-function destroy(req, res) {
-  // FILL ME IN !
-}
-
-function update(req, res) {
-  // FILL ME IN !
-}
-
-
 // export public methods here
 module.exports = {
   resetDB: init,
-  index: index,
-  create: create,
-  show: show,
-  destroy: destroy,
-  update: update
+  getAll: index,
+  getOne: show
 };
