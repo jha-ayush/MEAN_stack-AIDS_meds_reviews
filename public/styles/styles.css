@@ -138,6 +138,12 @@ color: tomato;
 }
 
 .trashIcon{
+  margin-right:900px;
+  text-align: right;
+  cursor: pointer;
+}
+.UpdateIcon{
+  margin-right:700px;
   text-align: right;
   cursor: pointer;
 }
