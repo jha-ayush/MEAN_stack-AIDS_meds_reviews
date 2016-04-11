@@ -235,7 +235,7 @@ db.Medication.remove({}, function(err, medications){
 db.Medication.findOne({name: reviewData.drugName}, function (err, foundMed) {
   console.log('found Med ' + foundMed.name + ' for review ' + review.title);
   if (err) {
-    console.log(err);
+    console.err(err);
     return;
   }
   review.drugName = foundMed;

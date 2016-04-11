@@ -28,6 +28,15 @@ var reviewsList = [
 //require .models in our app
 var db = require('../models');
 
+function init() {
+  db.medicationReview.remove({}, function(err, meds) {
+    console.log('Medication reviews removed');
+    reviewsList.forEach(function (review){
+
+    });
+  });
+}
+
 // GET /api/reviews
 function index(req, res) {
   res.json(reviewsList);

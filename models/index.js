@@ -5,4 +5,4 @@ mongoose.connect(process.env.MONGOLAB_URI ||
 
 
 module.exports.Medication = require("./medication.js");
-module.exports.MedicationReview = require("./medicationReview.js");
+module.exports.MedicationReview = require("./review.js");
