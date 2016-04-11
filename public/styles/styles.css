@@ -65,7 +65,7 @@
   max-width: 600px;
   flex: 1;
   margin: 15px;
-  background-color: #CCCCFF;
+  background-color: blanchedalmond;
 }
 
 #medications {
@@ -111,10 +111,24 @@
   margin-top: 10px;
   vertical-align: middle;
 }
+#ratingInput{
+  margin-left:10px;
+}
+#ageInput{
+  margin-left: 40px;
+}
+#sideEffectsInput{
+  margin-top: 30px;
+  margin-bottom:20px;
+  margin-left: 10px;
+}
 #commentsInput {
+  margin-top:10px;
+  margin-left: 10px;
   width: 400px;
 }
 #sideEffectsInput{
+  margin-top:10px;
   width: 400px;
 }
 
@@ -158,11 +172,27 @@ body {
 #writeReview{
   font-weight: bolder;
 }
-#singlebutton {
+#saveReviewButton{
   font: lucida;
   font-size: 15px;
-  color: black;
-  background-color: skyblue;
+  color: lavenderblush;
+  background-color: forestgreen;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px yellow;
+  text-shadow: 2px 2px 8px lavender;
+}
+#closeReviewButton{
+  font: lucida;
+  font-size: 15px;
+  color: lavenderblush;
+  background-color: firebrick;
+  font-weight: bolder;
+  text-shadow: 2px 2px 8px lavender;
+}
+#closeReadReview{
+  font: lucida;
+  font-size: 15px;
+  color: lavenderblush;
+  background-color: firebrick;
+  font-weight: bolder;
+  text-shadow: 2px 2px 8px lavender;
 }
