@@ -53,9 +53,11 @@ app.get('/api/medications', controllers.medications.getAll);
 app.get('/api/medications/:name', controllers.medications.getOne);
 
 app.get('/api/reviews/:medication', controllers.medicationsReview.getReviewsForMedication);
-app.delete('/api/reviews/:id', controllers.medicationsReview.destroy);
 app.post('/api/reviews', controllers.medicationsReview.create);
+app.delete('/api/reviews/:id', controllers.medicationsReview.destroy);
 
+//Update reviews
+app.put('/api/reviews/:id', controllers.medicationsReview.update);
 
 /**********
  * SERVER *

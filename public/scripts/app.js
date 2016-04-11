@@ -86,12 +86,13 @@ $(document).ready(function() {
   });
 
 //Update review
+//if click on "update" write modal pops up to edit & populated field. Hit Save.
 $(document).on('click', '.updateIcon', function() {
   var variableUpdate = this;
   $.ajax({
     method: 'PUT',
     url: '/api/reviews' + $(this).attr('data-id'),
-    success: function(data) {$(variableTrash).parent().remove();},
+    success: function(data) {$(variableUpdate).parent().remove();},
     error: function(err) {console.err(err);},
   });
 });

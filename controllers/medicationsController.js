@@ -229,29 +229,6 @@ function show(req, res) {
   });
 }
 
-// function create(req, res) {
-//   // FILL ME IN !
-// }
-
-// function destroy(req, res) {
-//   // FILL ME IN !
-// }
-
-// function update(req, res) {
-//   // FILL ME IN !
-// }
-
-// GET /api/medications/:id/reviews
-// function index(req, res) {
-//   res.json(medicationReview);
-//   db.medicationReview.find({}, function (err, medicationReview) {
-//       if (err) {
-//         console.err ("Error: " , err);
-//       }
-//       res.json(medicationReview);
-//     });
-// }
-
 // export public methods here
 module.exports = {
   resetDB: init,

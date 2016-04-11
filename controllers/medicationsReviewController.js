@@ -127,5 +127,5 @@ module.exports = {
   getReviewsForMedication: getReviews,
   destroy: destroy,
   create: create,
-  // update: update
+  update: update
 };
