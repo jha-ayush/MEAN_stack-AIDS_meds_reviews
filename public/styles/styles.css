@@ -106,7 +106,7 @@ color: tomato;
   font-weight: bold;
 }
 .aReview {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 2px chartreuse;
   margin-bottom: 10px;
   font-weight: normal;
 }

@@ -72,7 +72,7 @@ $(document).ready(function() {
       success: function(data) {console.log(data);},
       error: function(err) {console.err(err);},
       });
-  // Render prepend new review w/o page refresh
+// Render prepend new review w/o page refresh
   });
 
 
