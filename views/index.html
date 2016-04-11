@@ -51,8 +51,10 @@
           <div class="modal-body">
             <div>
                 <input type="text" placeholder="Rating: Out of 5" name="ratingInput" id="ratingInput" />
-                <input type="text" placeholder="Side-effects" name="sideEffectsInput" id="sideEffectsInput"/>
                 <input type="text" placeholder="Patient's age" name="ageInput" id="ageInput"/>
+                <div>
+                  <input type="text" placeholder="Side-effects" name="sideEffectsInput" id="sideEffectsInput"/>
+                </div>
                 <div class="commentsSection">
                   <div>Comments: </div>
                   <textarea name="commentsInput" id="commentsInput"></textarea>
@@ -61,7 +63,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+            <button type="button" class="btn btn-success" id="saveReviewButton" data-dismiss="modal">Submit</button>
           </div>
         </div>
       </div>

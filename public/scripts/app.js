@@ -46,12 +46,31 @@ $(document).ready(function() {
   });
 
   $(document).on('click', '.write button', function (event){
-    $('#ratingInput').val("");
-    $('#sideEffectsInput').val("");
-    $('#ageInput').val("");
-    $('#commentsInput').val("");
-    var drugName = this.getAttribute("data-name");
-    $("#writeModal .modal-title-drugName").html(drugName);
+      $('#ratingInput').val("");
+      $('#sideEffectsInput').val("");
+      $('#ageInput').val("");
+      $('#commentsInput').val("");
+      var drugName = this.getAttribute("data-name");
+      $("#writeModal .modal-title-drugName").html(drugName);
+  });
+
+  $(document).on('click', '#saveReviewButton', function (event){
+    var review = {};
+    review.ratings = $('#ratingInput').val();
+    review.sideEffects = $('#sideEffectsInput').val();
+    review.ageGroups = $('#ageInput').val();
+    review.additionalComments = $('#commentsInput').val();
+    review.medication = $('#writeModal .modal-title-drugName').html();
+    $.ajax({
+      method: 'POST',
+      url: '/api/reviews',
+      data: review,
+      success: function(data) {console.log(data);},
+      error: function(err) {console.err(err);},
+    });
+
+
+
   });
 
 
