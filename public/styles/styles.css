@@ -112,6 +112,7 @@ color: tomato;
 }
 
 .commentsSection {
+  font-weight: bold;
   margin-top: 10px;
   vertical-align: middle;
 }
