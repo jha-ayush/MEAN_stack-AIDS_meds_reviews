@@ -183,7 +183,7 @@ body {
   color: lavenderblush;
   background-color: forestgreen;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px lavender;
+  text-shadow: 2px 2px 8px linen;
 }
 #closeReviewButton{
   font: lucida;
@@ -191,7 +191,7 @@ body {
   color: lavenderblush;
   background-color: firebrick;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px lavender;
+  text-shadow: 2px 2px 8px linen;
 }
 #closeReadReview{
   font: lucida;
@@ -199,5 +199,5 @@ body {
   color: lavenderblush;
   background-color: firebrick;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px lavender;
+  text-shadow: 2px 2px 8px linen;
 }

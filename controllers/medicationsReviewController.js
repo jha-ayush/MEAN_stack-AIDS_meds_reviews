@@ -70,6 +70,8 @@ function index(req, res) {
     });
 }
 
+
+// GET single review
 function getReviews(req, res) {
   db.Medication.findOne({name: req.params.medication }, function(err, foundMedication) {
     db.MedicationReview.find({medication: foundMedication}, function (err, reviewsList) {
@@ -82,6 +84,7 @@ function getReviews(req, res) {
   });
 }
 
+// DELETE review
 function destroy(req, res) {
   console.log('review delete', req.params);
   var reviewId = req.params.id;
@@ -90,6 +93,8 @@ function destroy(req, res) {
   });
 }
 
+
+// POST a new review
 function create(req, res) {
   var review = new db.MedicationReview({
     ratings: req.body.ratings,
@@ -110,11 +115,17 @@ function create(req, res) {
 }
 
 
+// Update (PUT) a new review
+// function update (req, res) {
+// }
+
+
 // export public methods here
 module.exports = {
   resetDB: init,
   index: index,
   getReviewsForMedication: getReviews,
   destroy: destroy,
-  create: create
+  create: create,
+  // update: update
 };
