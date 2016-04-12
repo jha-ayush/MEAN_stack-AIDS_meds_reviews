@@ -90,19 +90,23 @@
           <div id="reviewRating">
               Rating (out of 5):
             </div>
-            <span> {{ratings}} </span>
+            <span class="visible"> {{ratings}} </span>
+            <input class="hidden" value="{{ratings}}" type="text" placeholder="Rating: Out of 5" name="ratingInput" id="ratingInput" />
         <div id="ageGroup">
             Age:
         </div>
-        <span> {{ageGroups}} </span>
+        <span class="visible"> {{ageGroups}} </span>
+        <input class="hidden" value="{{ageGroups}}" type="text" placeholder="Patient's age" name="ageInput" id="ageInput"/>
         <div id="sideEffects">
             Side-effects:
           </div>
-          <div> {{sideEffects}} </div>
+          <div class="visible"> {{sideEffects}} </div>
+          <textarea class="hidden" value="{{sideEffects}}" name="sideEffectsInput" id="sideEffectsInput"></textarea>
         <div id="comments">
           Comments:
         </div>
-        <div> {{additionalComments}} </div>
+        <div class="visible"> {{additionalComments}} </div>
+        <textarea class="hidden" value="{{additionalComments}}" name="commentsInput" id="commentsInput"></textarea>
         <span class="trashIcon" data-id="{{_id}}">
             <img src="images/TrashIcon.png" width="45px">
         </span>

@@ -115,6 +115,9 @@ color: crimson;
 #comments{
   font-weight: bold;
 }
+.hidden{
+  display: none;
+}
 .aReview {
   border-bottom: 2px solid black;
   margin-bottom: 10px;
