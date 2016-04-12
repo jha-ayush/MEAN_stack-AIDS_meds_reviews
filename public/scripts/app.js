@@ -93,7 +93,7 @@ $(document).on('click', '.updateIcon', function() {
   $.ajax({
     method: 'PUT',
     url: '/api/reviews' + $(this).attr('data-id'),
-    success: function(data) {$(variableUpdate).parent().remove();},
+    success: function(data) {$(variableUpdate).parent().change();},
     error: function(err) {console.err(err);},
   });
 });

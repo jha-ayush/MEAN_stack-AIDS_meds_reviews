@@ -116,10 +116,30 @@ function create(req, res) {
 
 
 // Update (PUT) a new review
-  function update (req, res) {
-  }
+    function update (req, res) {
+    console.log('review update', req.params);
+    var reviewId = req.params.id;
+    db.MedicationReview.findOneAndUpdate({ _id: reviewId }, function (err, updated) {
+      res.json(updated);
 
-
+      var review = new db.MedicationReview({
+        ratings: req.body.ratings,
+        sideEffects: req.body.sideEffects,
+        ageGroups: req.body.ageGroups,
+        additionalComments: req.body.additionalComments
+      });
+      var medicineName = req.body.medication;
+      db.Medication.findOne({name: medicineName }, function(err, foundMedication) {
+        review.medication = foundMedication;
+        review.save(function(err, saved){
+          if (err) {
+            console.err ("Error: " , err);
+          }
+          res.json(saved);
+        });
+     });
+   });
+}
 //   $.put = function(url, data, callback, type){
 //
 //     if ( $.isFunction(data) ){
