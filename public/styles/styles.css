@@ -1,7 +1,7 @@
 
 #header{
   text-shadow: 2px 2px 4px black;
-  color: whitesmoke;
+  color: lightcyan;
   background-color: teal;
   text-align: center;
   margin-left: auto;
@@ -46,13 +46,13 @@
 #medClass{
   font-weight: 500;
   font: lucida;
-  color: firebrick;
+  color: black;
 }
 #mfgCompany{
   margin-top: 10px;
   font-family: cursive;
   font-size: 16px;
-  color: midnightblue;
+  color: orangered;
   font: georgia;
   font-weight: bolder;
   margin-bottom: 5px;
@@ -65,20 +65,19 @@
   max-width: 600px;
   flex: 1;
   margin: 15px;
-  background-color: blanchedalmond;
+  background-color: lightcyan;
 }
 #aMedicationReadButton{
-
   font-style: italic;
   margin-top: 6px;
-  background-color: blanchedalmond;
-  border-color: blanchedalmond;
+  background-color: lightcyan;
+  border-color: lightcyan;
 }
 #aMedicationWriteButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: blanchedalmond;
-  border-color: blanchedalmond;
+  background-color: lightcyan;
+  border-color: lightcyan;
 }
 #medications {
   display: flex;
