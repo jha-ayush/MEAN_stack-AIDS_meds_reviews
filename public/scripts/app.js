@@ -89,14 +89,33 @@ $(document).ready(function() {
 //Update review
 //if click on "update" write modal pops up to edit & populated field. Hit Save.
 $(document).on('click', '.updateIcon', function() {
-  var variableUpdate = this;
-  $.ajax({
-    method: 'PUT',
-    url: '/api/reviews/' + $(this).attr('data-id'),
-    success: function(data) {$(variableUpdate).parent().change();},
-    error: function(err) {console.err(err);},
-  });
+  var visible = $(this).parent().find(".visible");
+  var hidden = $(this).parent().find(".hidden");
+  visible.removeClass("visible");
+  hidden.removeClass("hidden");
+  visible.addClass("hidden");
+  hidden.addClass("visible");
 });
+
+
+// Save new review
+  $(document).on('click', '#updateReviewButton', function (e){
+    e.preventDefault();
+    var review = {};
+    review.ratings = $(this).parent().find('#updateRatingInput').val();
+    review.sideEffects = $(this).parent().find('#updateSideEffectsInput').val();
+    review.ageGroups = $(this).parent().find('#updateAgeInput').val();
+    review.additionalComments = $(this).parent().find('#updateCommentsInput').val();
+    $.ajax({
+      method: 'PUT',
+      url: '/api/reviews/' + $(this).attr('data-id'),
+      data: review ,
+      success: function(data) {console.log(data);},
+      error: function(err) {console.err(err);},
+    });
+  });
+
+
 
   //Render single medication
   // renderMedication(medicationsList[0]);

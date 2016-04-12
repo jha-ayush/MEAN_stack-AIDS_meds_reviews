@@ -150,15 +150,12 @@ color: crimson;
   width: 400px;
 }
 .trashIcon{
-  margin-left: 500px;
   margin-bottom: 10px;
-  text-align: right;
+  margin-left: 450px;
   cursor: pointer;
 }
-.UpdateIcon{
-  margin-left: 600px;
+.updateIcon{
   margin-bottom: 10px;
-  text-align: right;
   cursor: pointer;
 }
 .modal-body{

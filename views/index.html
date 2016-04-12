@@ -91,27 +91,28 @@
               Rating (out of 5):
             </div>
             <span class="visible"> {{ratings}} </span>
-            <input class="hidden" value="{{ratings}}" type="text" placeholder="Rating: Out of 5" name="ratingInput" id="ratingInput" />
+            <input class="hidden" value="{{ratings}}" type="text" placeholder="Rating: Out of 5" name="ratingInput" id="updateRatingInput" />
         <div id="ageGroup">
             Age:
         </div>
         <span class="visible"> {{ageGroups}} </span>
-        <input class="hidden" value="{{ageGroups}}" type="text" placeholder="Patient's age" name="ageInput" id="ageInput"/>
+        <input class="hidden" value="{{ageGroups}}" type="text" placeholder="Patient's age" name="ageInput" id="updateAgeInput"/>
         <div id="sideEffects">
             Side-effects:
           </div>
           <div class="visible"> {{sideEffects}} </div>
-          <textarea class="hidden" value="{{sideEffects}}" name="sideEffectsInput" id="sideEffectsInput"></textarea>
+          <textarea  class="hidden" name="sideEffectsInput" id="updateSideEffectsInput">{{sideEffects}}</textarea>
         <div id="comments">
           Comments:
         </div>
         <div class="visible"> {{additionalComments}} </div>
-        <textarea class="hidden" value="{{additionalComments}}" name="commentsInput" id="commentsInput"></textarea>
+        <textarea class="hidden" name="commentsInput" id="updateCommentsInput">{{additionalComments}}</textarea>
+        <button type="button" class="btn btn-success hidden" id="updateReviewButton" data-id="{{_id}}" data-dismiss="modal">Save</button>
         <span class="trashIcon" data-id="{{_id}}">
-            <img src="images/TrashIcon.png" width="45px">
+            <img src="images/trashIcon.png" width="45px">
         </span>
         <span class="updateIcon" data-id="{{_id}}">
-            <img src="images/UpdateIcon.png" width="45px">
+            <img src="images/updateIcon.png" width="45px">
         </span>
         </div>
     </script>
@@ -153,7 +154,7 @@
                   data-name="{{name}}"
                   >
               Read
-              <img src="images/PopupIcon.png" width="25px"/>
+              <img src="images/popUpIcon.svg" width="25px"/>
             </button>
           </div>
 
@@ -162,7 +163,7 @@
                   data-toggle="modal" data-target="#writeModal"
                   data-name="{{name}}">
               Write
-              <img src="images/PopupIcon.png" width="25px"/>
+              <img src="images/popUpIcon.svg" width="25px"/>
             </button>
           </div>
         </div>
