@@ -96,8 +96,6 @@ $(document).on('click', '.updateIcon', function() {
   visible.addClass("hidden");
   hidden.addClass("visible");
 });
-
-
 // Save new review
   $(document).on('click', '#updateReviewButton', function (e){
     e.preventDefault();

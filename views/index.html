@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>AIDS Medication Review</title>
+    <title>AIDS Medication Reviews</title>
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
   <body>
     <h1>
       <div id="header">
-        <div id="title">AIDS medication review</div>
+        <div id="title">AIDS medication reviews</div>
         <div id="subtitle">
           <p>FDA-approved medications for treatment of HIV infection</p>
         </div>
@@ -46,7 +46,7 @@
           <div class="modal-body">
             <div>
                 <input type="text" placeholder="Rating: Out of 5" name="ratingInput" id="ratingInput" />
-                <input type="text" placeholder="Patient's age" name="ageInput" id="ageInput"/>
+                <input type="text" placeholder="Patient's Age" name="ageInput" id="ageInput"/>
                 <div class="sideEffectsWrite">
                   <div> Side-Effects: </div>
                   <textarea name="sideEffectsInput" id="sideEffectsInput"></textarea>
@@ -85,6 +85,7 @@
       </div>
     </div>
 
+    <!-- Add handlebars to write modal -->
     <script id="review-template" type="text/x-handlebars-template">
       <div class="aReview">
           <div id="reviewRating">
@@ -117,7 +118,7 @@
         </div>
     </script>
 
-    <!-- Medications handlebars script -->
+    <!-- Medications handlebars script for front page -->
     <script id="medication-template" type="text/x-handlebars-template">
       <!-- one medication -->
       <div class="aMedication one-edge-shadow">
