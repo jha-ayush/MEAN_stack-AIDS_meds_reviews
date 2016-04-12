@@ -67,7 +67,19 @@
   margin: 15px;
   background-color: blanchedalmond;
 }
+#aMedicationReadButton{
 
+  font-style: italic;
+  margin-top: 6px;
+  background-color: blanchedalmond;
+  border-color: blanchedalmond;
+}
+#aMedicationWriteButton{
+  font-style: italic;
+  margin-top: 6px;
+  background-color: blanchedalmond;
+  border-color: blanchedalmond;
+}
 #medications {
   display: flex;
   flex-direction: row;
@@ -195,7 +207,7 @@ body {
   color: lavenderblush;
   background-color: forestgreen;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px linen;
+  text-shadow: 2px 2px 8px black;
 }
 #closeReviewButton{
   font: lucida;
@@ -203,7 +215,7 @@ body {
   color: lavenderblush;
   background-color: firebrick;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px linen;
+  text-shadow: 2px 2px 8px black;
 }
 #closeReadReview{
   font: lucida;
@@ -211,5 +223,5 @@ body {
   color: lavenderblush;
   background-color: firebrick;
   font-weight: bolder;
-  text-shadow: 2px 2px 8px linen;
+  text-shadow: 2px 2px 8px black;
 }

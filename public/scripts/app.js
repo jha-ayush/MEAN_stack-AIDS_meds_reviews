@@ -29,7 +29,7 @@ function renderReview(review) {
 
 //Document ready
 $(document).ready(function() {
-  console.log("app.js is loaded & running");
+  console.log("app.js is Loaded & Running");
   // End document ready
 
 
@@ -57,7 +57,8 @@ $(document).ready(function() {
       $("#writeModal .modal-title-drugName").html(drugName);
   });
 // Save new review
-  $(document).on('click', '#saveReviewButton', function (event){
+  $(document).on('click', '#saveReviewButton', function (e){
+    e.preventDefault();
     var review = {};
     review.ratings = $('#ratingInput').val();
     review.sideEffects = $('#sideEffectsInput').val();

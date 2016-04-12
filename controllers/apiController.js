@@ -8,7 +8,7 @@ function index(req, res) {
       {method: "GET", path: "/api", description: "Describes all available endpoints"},
 
       {method: "GET", path: "/api/medications", description: "Get all medications in the database"},
-      {method: "GET", path: "/api/medications/:id", description: "Get details of a single medication"},
+      {method: "GET", path: "/api/medications/:id", description: "Get details of a single medication"}, //Id in node seed.js
 
       {method: "GET", path: "/api/medications/:id/reviews", description: "Get all reviews of a single medication"},
       {method: "GET", path: "/api/reviews/:id", description: "Get details of a single review"},

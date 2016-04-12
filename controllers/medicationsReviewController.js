@@ -116,9 +116,27 @@ function create(req, res) {
 
 
 // Update (PUT) a new review
-// function update (req, res) {
-// }
+  function update (req, res) {
+  }
 
+
+//   $.put = function(url, data, callback, type){
+//
+//     if ( $.isFunction(data) ){
+//       type = type || callback,
+//       callback = data,
+//       data = {},
+//     }
+//
+//     return $.ajax({
+//       url: url,
+//       type: 'PUT',
+//       success: callback,
+//       data: data,
+//       contentType: type
+//     });
+//
+// }
 
 // export public methods here
 module.exports = {
