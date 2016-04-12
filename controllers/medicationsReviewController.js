@@ -117,46 +117,23 @@ function create(req, res) {
 
 // Update (PUT) a new review
     function update (req, res) {
-    console.log('review updated', req.params);
-    var reviewId = req.params.id;
-    db.MedicationReview.findOneAndUpdate({ _id: reviewId }, function (err, updated) {
-      res.json(updated);
-
-      var review = new db.MedicationReview({
-        ratings: req.body.ratings,
-        sideEffects: req.body.sideEffects,
-        ageGroups: req.body.ageGroups,
-        additionalComments: req.body.additionalComments
-      });
-      var medicineName = req.body.medication;
-      db.Medication.findOne({name: medicineName }, function(err, foundMedication) {
-        review.medication = foundMedication;
-        review.save(function(err, saved){
+      var reviewId = req.params.id;
+      db.MedicationReview.findOne({ _id: reviewId}, function (err, review) {
           if (err) {
             console.err ("Error: " , err);
           }
-          res.json(saved);
+          review.ratings = req.body.ratings;
+          review.sideEffects= req.body.sideEffects;
+          review.ageGroups= req.body.ageGroups;
+          review.additionalComments=req.body.additionalComments;
+          review.save(function (err , saved) {
+            if(err) {
+              console.err('ERROR!');
+            }
+            res.json(saved);
         });
-     });
-   });
-}
-//   $.put = function(url, data, callback, type){
-//
-//     if ( $.isFunction(data) ){
-//       type = type || callback,
-//       callback = data,
-//       data = {},
-//     }
-//
-//     return $.ajax({
-//       url: url,
-//       type: 'PUT',
-//       success: callback,
-//       data: data,
-//       contentType: type
-//     });
-//
-// }
+      });
+    }
 
 // export public methods here
 module.exports = {
@@ -167,3 +144,6 @@ module.exports = {
   create: create,
   update: update
 };
+
+
+// curl -H 'Content-Type: application/json' -X PUT http://localhost:3000/api/reviews/570c5a32a4290eda34649b37  -d  '{"ratings":"1", "sideEffects":"Hello!", "ageGroups": "2", "additionalComments": "nothing"}'
