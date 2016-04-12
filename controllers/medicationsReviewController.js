@@ -117,7 +117,7 @@ function create(req, res) {
 
 // Update (PUT) a new review
     function update (req, res) {
-    console.log('review update', req.params);
+    console.log('review updated', req.params);
     var reviewId = req.params.id;
     db.MedicationReview.findOneAndUpdate({ _id: reviewId }, function (err, updated) {
       res.json(updated);

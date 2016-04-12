@@ -101,15 +101,15 @@
 }
 .modal-title-drugName{
 font-weight: bold;
-color: tomato;
+color: crimson;
 }
 #reviewRating{
   font-weight: bold;
 }
-#sideEffects{
+#ageGroup{
   font-weight: bold;
 }
-#ageGroup{
+#sideEffects{
   font-weight: bold;
 }
 #comments{
@@ -146,11 +146,6 @@ color: tomato;
   margin-top:5px;
   width: 400px;
 }
-#sideEffectsInput{
-  margin-top:10px;
-  width: 400px;
-}
-
 .trashIcon{
   margin-left: 500px;
   margin-bottom: 10px;
