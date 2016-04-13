@@ -1,13 +1,8 @@
 # Project01_GlobalAPI
 
-
 ## Goal:
-- Create a single page responsive web app that lets users Read & Submit reviews of AIDS medication that are currently available.
-- User enters web app.
-- User is able to see the list of medications.
-- User can click on a single medication & modal pops up.
-- Hidden reviews show up.
-
+- Create a single page responsive web app that lets users Read, Write, Update & Delete reviews of AIDS medication that are currently available in the market.
+- Use modals for read & write functions.
 
 ### Pre-work tasks:
 - Create project01 github Repository
@@ -15,7 +10,6 @@
 - 'npm init' & 'npm install' & 'npm install mongoose'
 - Heroku: "git push heroku master", "heroku run bash--> node seed.js", "heroku open", "heroku logs".
 - In your current folder, Heroku rename:  "~$ heroku apps:rename [newname]"
-
 
 ### Tasks:
 - Sprint 1: User enters page url and sees the main page displaying medications.
@@ -46,7 +40,6 @@
     **Database**    
       - mongoDB
       - mongoose models
-
 
 #### Heroku url:
 https://medreviewapp.herokuapp.com/ | https://git.heroku.com/medreviewapp.git
