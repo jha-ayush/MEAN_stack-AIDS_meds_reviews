@@ -27,7 +27,6 @@
 
 ### Technologies used:
     **Front-end**
-
       - Wireframes
       - HTML
       - CSS
@@ -39,13 +38,11 @@
       - Bootstrap
 
     **Back-end**
-
       - JAVASCRIPT
       - node.js
       - Express controllers
 
-    **Database**
-    
+    **Database**    
       - mongoDB
       - mongoose models
 
@@ -58,7 +55,3 @@ https://github.com/jha-ayush/Project01_GlobalAPI
 
 #### API used:  
 GET http://aidsinfo.nih.gov/api/drugs
-
-#### Wireframes for web-app:
-- **Sketch:**
-##### -![Wireframe_Project01]("/Users/ayushjha/WDI/Project01_GlobalAPI/docs/images/Wireframe_Project01.jpg" width="90")
