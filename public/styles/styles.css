@@ -28,7 +28,7 @@
   font-weight: bolder;
   font: lucida;
   text-shadow: 2px 2px 4px lightblue;
-  color: red;
+  color: midnightblue;
 }
 .description{
   margin-left:10px;
@@ -66,19 +66,19 @@
   flex: 1;
   margin: 15px;
   margin-right:10px;
-  background-color: ivory;
+  background-color: aliceblue;
 }
 #aMedicationReadButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: ivory;
-  border-color: ivory;
+  background-color: aliceblue;
+  border-color: aliceblue;
 }
 #aMedicationWriteButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: ivory;
-  border-color: ivory;
+  background-color: aliceblue;
+  border-color: aliceblue;
 }
 #medications {
   display: flex;
