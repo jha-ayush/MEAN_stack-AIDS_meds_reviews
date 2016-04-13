@@ -1,7 +1,7 @@
 
 #header{
   text-shadow: 2px 2px 4px black;
-  color: lightcyan;
+  color: aliceblue;
   background-color: teal;
   text-align: center;
   margin-left: auto;
@@ -27,7 +27,8 @@
   font-size: 16px;
   font-weight: bolder;
   font: lucida;
-  text-shadow: 2px 2px 4px lemonchiffon;
+  text-shadow: 2px 2px 4px floralwhite;
+  color: red;
 }
 .description{
   margin-left:10px;
@@ -52,11 +53,11 @@
   margin-top: 10px;
   font-family: cursive;
   font-size: 16px;
-  color: orangered;
+  color: firebrick;
   font: georgia;
   font-weight: bolder;
   margin-bottom: 5px;
-  border-bottom:2px solid crimson;
+  border-bottom:3px solid blueviolet;
 }
 .aMedication {
   font:lucida;
@@ -64,26 +65,26 @@
   max-width: 600px;
   flex: 1;
   margin: 15px;
-  background-color: lightcyan;
+  margin-right:10px;
+  background-color: bisque;
 }
 #aMedicationReadButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: lightcyan;
-  border-color: lightcyan;
+  background-color: bisque;
+  border-color: bisque;
 }
 #aMedicationWriteButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: lightcyan;
-  border-color: lightcyan;
+  background-color: bisque;
+  border-color: bisque;
 }
 #medications {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .iconImage{
   text-align: center;
 }
@@ -119,7 +120,7 @@ color: crimson;
   display: none;
 }
 .aReview {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid teal;
   margin-bottom: 10px;
   font-weight: normal;
 }
@@ -198,7 +199,7 @@ body {
   font: lucida;
   font-size: 15px;
   color: lavenderblush;
-  background-color: forestgreen;
+  background-color: black;
   font-weight: bolder;
   text-shadow: 2px 2px 8px black;
 }

@@ -23,6 +23,28 @@
 - Sprint 4: User can see all the reviews of a single medication in the review-modal popup.
 - Sprint 5: User can write & submit a new review inside Write-modal.
 - Sprint 6: User can delete a single review.
+- Sprint 7: User can update a review inside the review-modal once "update" button is clicked.
+
+### Technologies used:
+    **Front-end:**
+      - Wireframes
+      - HTML
+      - CSS
+      - JAVASCRIPT
+      - jQuery
+      - Postman (GET data from an externalAPI) & cURL manual commands for HTTP methods
+      - ajax
+      - Handlebars
+      - Bootstrap
+
+    **Back-end:**
+      - JAVASCRIPT
+      - node.js
+      - Express controllers
+
+    **Database:**
+      - mongoDB
+      - mongoose models
 
 
 #### Heroku url:
@@ -35,9 +57,9 @@ https://github.com/jha-ayush/Project01_GlobalAPI
 #### API used:  
 GET http://aidsinfo.nih.gov/api/drugs
 
-#### Wireframes:
-- **Main page:**
-##### -![Wireframe_Project01]("//Users/ayushjha/WDI/Project01_GlobalAPI/docs/images/Wireframe_Project01.jpg" width="90")
+#### Wireframes for web-app:
+- **Sketch:**
+##### -![Wireframe_Project01]("/Users/ayushjha/WDI/Project01_GlobalAPI/docs/images/Wireframe_Project01.jpg" width="90")
 
 - **Read modal:**
 - **Write modal:**
