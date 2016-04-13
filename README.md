@@ -14,6 +14,7 @@
 - Create corresponding Heroku page: https://github.com/SF-WDI-LABS/shared_modules/blob/master/how-to/heroku-mean-stack-deploy.md
 - 'npm init' & 'npm install' & 'npm install mongoose'
 - Heroku: "git push heroku master", "heroku run bash--> node seed.js", "heroku open", "heroku logs".
+- In your current folder, Heroku rename:  "~$ heroku apps:rename [newname]"
 
 
 ### Tasks:
