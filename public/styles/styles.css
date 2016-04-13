@@ -27,7 +27,7 @@
   font-size: 16px;
   font-weight: bolder;
   font: lucida;
-  text-shadow: 2px 2px 4px floralwhite;
+  text-shadow: 2px 2px 4px lightblue;
   color: red;
 }
 .description{
@@ -66,19 +66,19 @@
   flex: 1;
   margin: 15px;
   margin-right:10px;
-  background-color: bisque;
+  background-color: ivory;
 }
 #aMedicationReadButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: ivory;
+  border-color: ivory;
 }
 #aMedicationWriteButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: bisque;
-  border-color: bisque;
+  background-color: ivory;
+  border-color: ivory;
 }
 #medications {
   display: flex;
@@ -120,7 +120,7 @@ color: crimson;
   display: none;
 }
 .aReview {
-  border-bottom: 2px solid teal;
+  border-bottom: 5px solid midnightblue;
   margin-bottom: 10px;
   font-weight: normal;
 }
@@ -199,7 +199,7 @@ body {
   font: lucida;
   font-size: 15px;
   color: lavenderblush;
-  background-color: black;
+  background-color: limegreen;
   font-weight: bolder;
   text-shadow: 2px 2px 8px black;
 }
@@ -216,6 +216,16 @@ body {
   font-size: 15px;
   color: lavenderblush;
   background-color: firebrick;
+  font-weight: bolder;
+  text-shadow: 2px 2px 8px black;
+}
+#updateReviewButton{
+  margin-top:-25px;
+  margin-left:25px;
+  font: lucida;
+  font-size: 15px;
+  color: lavenderblush;
+  background-color: limegreen;
   font-weight: bolder;
   text-shadow: 2px 2px 8px black;
 }

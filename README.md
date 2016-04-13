@@ -48,7 +48,7 @@
 
 
 #### Heroku url:
-https://fast-cliffs-18726.herokuapp.com/ |  https://git.heroku.com/fast-cliffs-18726.git
+https://medreviewapp.herokuapp.com/ | https://git.heroku.com/medreviewapp.git
 
 
 #### GitHub Repository:
