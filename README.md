@@ -26,7 +26,8 @@
 - Sprint 7: User can update a review inside the review-modal once "update" button is clicked.
 
 ### Technologies used:
-    **Front-end:**
+    **Front-end**
+
       - Wireframes
       - HTML
       - CSS
@@ -37,19 +38,20 @@
       - Handlebars
       - Bootstrap
 
-    **Back-end:**
+    **Back-end**
+
       - JAVASCRIPT
       - node.js
       - Express controllers
 
-    **Database:**
+    **Database**
+    
       - mongoDB
       - mongoose models
 
 
 #### Heroku url:
 https://medreviewapp.herokuapp.com/ | https://git.heroku.com/medreviewapp.git
-
 
 #### GitHub Repository:
 https://github.com/jha-ayush/Project01_GlobalAPI
@@ -60,6 +62,3 @@ GET http://aidsinfo.nih.gov/api/drugs
 #### Wireframes for web-app:
 - **Sketch:**
 ##### -![Wireframe_Project01]("/Users/ayushjha/WDI/Project01_GlobalAPI/docs/images/Wireframe_Project01.jpg" width="90")
-
-- **Read modal:**
-- **Write modal:**
