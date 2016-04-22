@@ -61,12 +61,13 @@ function init() {
 
 // GET /api/reviews
 function index(req, res) {
-  res.json(reviewsList);
+  // res.json(reviewsList);
   db.MedicationReview.find({}, function (err, reviewsList) {
       if (err) {
         console.err ("Error: " , err);
       }
-      console.log(reviewsList);
+      // console.log(reviewsList);
+      res.json(reviewsList);
     });
 }
 
