@@ -44,13 +44,13 @@ function init() {
       });
       db.Medication.findOne({name: reviewData.medicationName}, function(err, found) {
         if (err) {
-          console.log(err);
+          console.err(err);
           return;
         }
         review.medication = found;
         review.save(function(err, saved){
           if (err) {
-            return console.log(err);
+            return console.err(err);
           }
           console.log('saved ' + saved);
         });
