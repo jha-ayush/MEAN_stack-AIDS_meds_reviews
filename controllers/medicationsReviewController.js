@@ -26,7 +26,7 @@ var reviewsList = [
       additionalComments: "Talk to your Healthcare professional to monitor your symptoms & any pre-existing conditions."
     }
 ];
-
+/* hard-coded data */
 
 //require .models in our app
 var db = require('../models');

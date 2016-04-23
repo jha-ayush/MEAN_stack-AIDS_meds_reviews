@@ -47,5 +47,5 @@ https://medreviewapp.herokuapp.com/ | https://git.heroku.com/medreviewapp.git
 #### GitHub Repository:
 https://github.com/jha-ayush/Project01_GlobalAPI
 
-#### API used:  
-GET http://aidsinfo.nih.gov/api/drugs
+#### API source:  
+Used the resources as embedded data provided by the following API: http://aidsinfo.nih.gov/api/drugs
