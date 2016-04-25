@@ -1,4 +1,4 @@
-# Project01_GlobalAPI
+# Project01_AIDS medication review
 
 ## Goal:
 - Create a single page responsive web app that lets users Read, Write, Update & Delete reviews of AIDS medication that are currently available in the market.
@@ -48,4 +48,4 @@ https://medreviewapp.herokuapp.com/ | https://git.heroku.com/medreviewapp.git
 https://github.com/jha-ayush/Project01_GlobalAPI
 
 #### API source:  
-Used the resources as embedded data provided by the following API: http://aidsinfo.nih.gov/api/drugs
+Used the resources from http://aidsinfo.nih.gov/api/drugs as embedded data.
