@@ -1,8 +1,8 @@
 
 #header{
-  text-shadow: 2px 2px 4px black;
-  color: aliceblue;
-  background-color: teal;
+  text-shadow: 2px 2px 1px aliceblue;
+  color: firebrick;
+  background-color: bisque;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -18,9 +18,9 @@
   font: georgia;
 }
 .one-edge-shadow {
-  -webkit-box-shadow: 0 8px 6px -6px black;
-     -moz-box-shadow: 0 8px 6px -6px black;
-          box-shadow: 0 8px 6px -6px black;
+  -webkit-box-shadow: 10px 10px 5px -6px black;
+     -moz-box-shadow: 10px 10px 5px -6px black;
+          box-shadow: 10px 10px 5px -6px black;
 }
 .name{
   margin-top: 5px;
@@ -66,19 +66,19 @@
   flex: 1;
   margin: 15px;
   margin-right:10px;
-  background-color: aliceblue;
+  background-color: bisque;
 }
 #aMedicationReadButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: aliceblue;
-  border-color: aliceblue;
+  background-color: bisque;
+  border-color: bisque;
 }
 #aMedicationWriteButton{
   font-style: italic;
   margin-top: 6px;
-  background-color: aliceblue;
-  border-color: aliceblue;
+  background-color: bisque;
+  border-color: bisque;
 }
 #medications {
   display: flex;
@@ -172,7 +172,7 @@ color: crimson;
   margin-right:5px;
 }
 body {
-  background-color: teal;
+  background-color: bisque;
 }
 #medication-form {
     display: block;
@@ -186,7 +186,7 @@ body {
     border-bottom: 1px solid #e5e5e5;
     color: black;
     background-color: white;
-    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 16px 16px 8px black;
 }
 #readReview{
   font-weight: bolder;
