@@ -2,7 +2,7 @@
 #header{
   text-shadow: 2px 2px 1px aliceblue;
   color: firebrick;
-  background-color: floralwhite;
+  background-color: gainsboro;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -172,7 +172,7 @@ color: crimson;
   margin-right:5px;
 }
 body {
-  background-color: floralwhite;
+  background-color: gainsboro;
 }
 #medication-form {
     display: block;
