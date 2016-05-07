@@ -11,8 +11,10 @@
   width: 570px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: sans-serif;
 }
 #subtitle {
+  font-family: sans-serif;
   font-size: 16px;
   text-align: center;
   font: georgia;
